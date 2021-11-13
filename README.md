@@ -7,7 +7,7 @@ git submodule add https://github.com/tetsukamen/submodule_test_A.git repoA
 git commit -m "Add module"
 cd repoA
 git config core.sparsecheckout true
-echo .gitsparse > ../git/modules/repoA/info/sparse-checkout
+cat ../.gitsparse > ../.git/modules/repoA/info/sparse-checkout
 git read-tree -mu HEAD
 ```
 
