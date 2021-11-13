@@ -16,7 +16,7 @@ git read-tree -mu HEAD
 ```
 cd repoA
 git config core.sparsecheckout true
-cat ../.gitsparse > ../git/modules/repoA/info/sparse-checkout
+cat ../.gitsparse > ../.git/modules/repoA/info/sparse-checkout
 git read-tree -mu HEAD
 ```
 
