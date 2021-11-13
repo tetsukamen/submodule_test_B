@@ -1,0 +1,3 @@
+[submodule "repoA"]
+	path = repoA
+	url = https://github.com/tetsukamen/submodule_test_A.git
